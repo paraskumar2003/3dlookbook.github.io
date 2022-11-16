@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", 'ejs');
 
-app.get("/",(req,res)=>{res.render("Index")});
+app.get("/",(req,res)=>{res.render("index")});
 app.get("/room",(req,res)=>{res.render("room")});
 app.get("/product/:id",(req,res)=>{
     const id = req.params.id;
