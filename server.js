@@ -21,4 +21,4 @@ app.get("/product/:id",(req,res)=>{
     
     res.render("product",{src:product})});
 
-app.listen(3000);
+app.listen(8000);
